@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎使用 {{ title }}</h1>
+        <p class="description">{{ description }}</p>
+        
+        <div class="features">
+            <div class="feature-item">
+                <h3>🚀 高性能</h3>
+                <p>基于 FastAPI 构建，提供极致的性能体验</p>
+            </div>
+            <div class="feature-item">
+                <h3>🔒 安全可靠</h3>
+                <p>内置 JWT 认证，保障 API 安全</p>
+            </div>
+            <div class="feature-item">
+                <h3>📚 文档完善</h3>
+                <p>自动生成 API 文档，开发更轻松</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="/docs" class="btn">API 文档</a>
+            <a href="/redoc" class="btn">ReDoc 文档</a>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', path='js/main.js') }}"></script>
+</body>
+</html>
