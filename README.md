@@ -336,5 +336,5 @@ Authorization: Bearer your_access_token
 
 Email: starloongyibao@qq.com
 
-项目链接: [Star-Go](https://gitee.com/chenwm-star/star-go.git)
+项目链接: [StarWeb](https://gitee.com/chenwm-star/StarWeb.git)
 
